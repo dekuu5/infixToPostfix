@@ -36,8 +36,18 @@ float calc(int op1,int op2,int c){
 
 float postFixCalc(char ** exp)
 {
-    float result = 0;
-
-
+    stackINT *s = initializeINT(MAX_TOKENS);
+    char* ch;
+    for (int i = 0; exp[i] != NULL; ++i) {
+        ch = exp[i];
+        if (isdigit(*ch)) {
+            pushINT(s,*ch - '0');
+        } else {
+            int val1 = popINT(s);
+            int val2 = popINT(s);
+            pushINT(s, calc(val1,val2,*ch));
+        }
+    }
+    return popINT(s);
 
 }

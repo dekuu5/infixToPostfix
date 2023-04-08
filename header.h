@@ -26,6 +26,7 @@ char * infix_to_postfix(char exp[],int length);
 
 char ** splitString(char* str, char delim);
 float calc(int op1,int op2,int c);
+float postFixCalc(char ** exp);
 
 // stckInt.c
 
@@ -34,9 +35,9 @@ typedef struct {
 }stackINT;
 stackINT * initializeINT(int size);
 bool is_emptyINT(stackINT s);
-bool is_fullINT(stackINT s, int size);
+bool is_fullINT(stackINT s);
 int peekINT(stackINT s);
-void pushINT(stackINT* s, int value, int size);
+void pushINT(stackINT* s, int value);
 int popINT(stackINT* s);
 void printINT(stackINT s);
 
