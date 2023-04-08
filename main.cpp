@@ -10,4 +10,4 @@ int main(){
     printf("%s\n",infix_to_postfix(infix,strlen(infix)));
     return 0;
 
-}git config --global user.email "you@example.com"
+}
