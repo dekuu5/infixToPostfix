@@ -1,0 +1,7 @@
+# ninja log v5
+0	224	7026901739734599	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
+17	257	7026901740104559	CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj	d98792c6fd322920
+32	261	7026901740134577	CMakeFiles/myproject.dir/stack.cpp.obj	3a9eecdf4fa05382
+261	457	7026901742034584	myproject.exe	ebe9502f678dba2b
+4	145	7026902036490290	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
+146	321	7026902038170322	myproject.exe	ebe9502f678dba2b
