@@ -22,18 +22,6 @@ int precedence(char c){
         return 0;
 }
 
-float calc(int op1,int op2,int c){
-    switch(c){
-        case '+':
-            return op1+op2;
-        case '-':
-            return op1-op2;
-        case '*':
-            return op1*op2;
-        case '/':
-            return (float)op1/op2;
-    }
-}
 
 char * infix_to_postfix(char exp[],int length){
     stack *s=intialize(length);

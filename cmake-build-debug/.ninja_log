@@ -1,7 +1,14 @@
 # ninja log v5
-0	224	7026901739734599	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
-17	257	7026901740104559	CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj	d98792c6fd322920
+10	178	7026919526723004	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
+4	197	7026919526933934	CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj	d98792c6fd322920
 32	261	7026901740134577	CMakeFiles/myproject.dir/stack.cpp.obj	3a9eecdf4fa05382
-261	457	7026901742034584	myproject.exe	ebe9502f678dba2b
-4	145	7026902036490290	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
-146	321	7026902038170322	myproject.exe	ebe9502f678dba2b
+201	447	7026919529350107	myproject.exe	492d571c296309d0
+15	201	7026919526984048	CMakeFiles/myproject.dir/postfix_calc.cpp.obj	13668e75f83021db
+1	209	7026928048404118	build.ninja	538fc9a2dedb0c71
+13	242	7026929718523756	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
+6	284	7026929718971055	CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj	d98792c6fd322920
+3	148	7026937806955903	CMakeFiles/myproject.dir/postfix_calc.cpp.obj	13668e75f83021db
+149	316	7026937808542192	myproject.exe	492d571c296309d0
+5	168	7026952360061923	CMakeFiles/myproject.dir/main.cpp.obj	65079bd73703b818
+12	183	7026952360212382	CMakeFiles/myproject.dir/postfix_calc.cpp.obj	13668e75f83021db
+184	363	7026952361953812	myproject.exe	492d571c296309d0

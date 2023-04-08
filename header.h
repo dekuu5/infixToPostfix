@@ -24,4 +24,8 @@ float calc(int op1,int op2,int c);
 
 char * infix_to_postfix(char exp[],int length);
 
+//posfix_calc.cpp
+
+char ** splitString(char* str, char delim);
+
 #endif //INFIX2POSTFIX_PROJECT_HEADER_H

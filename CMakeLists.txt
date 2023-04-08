@@ -9,4 +9,5 @@ add_executable(myproject
         header.h
         infix_to_postfix.cpp
         main.cpp
-        stack.cpp)
+        stack.cpp
+        postfix_calc.cpp)
