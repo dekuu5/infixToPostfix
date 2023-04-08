@@ -77,6 +77,13 @@ build CMakeFiles/myproject.dir/postfix_calc.cpp.obj: CXX_COMPILER__myproject_Deb
   OBJECT_DIR = CMakeFiles\myproject.dir
   OBJECT_FILE_DIR = CMakeFiles\myproject.dir
 
+build CMakeFiles/myproject.dir/stackInt.cpp.obj: CXX_COMPILER__myproject_Debug F$:/engnnering/spring$ 22-23/data$ structure/myproject/stackInt.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\stackInt.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"F:/engnnering/spring 22-23/data structure/myproject/."
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target myproject
@@ -85,7 +92,7 @@ build CMakeFiles/myproject.dir/postfix_calc.cpp.obj: CXX_COMPILER__myproject_Deb
 #############################################
 # Link the executable myproject.exe
 
-build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj CMakeFiles/myproject.dir/main.cpp.obj CMakeFiles/myproject.dir/stack.cpp.obj CMakeFiles/myproject.dir/postfix_calc.cpp.obj
+build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/infix_to_postfix.cpp.obj CMakeFiles/myproject.dir/main.cpp.obj CMakeFiles/myproject.dir/stack.cpp.obj CMakeFiles/myproject.dir/postfix_calc.cpp.obj CMakeFiles/myproject.dir/stackInt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\myproject.dir

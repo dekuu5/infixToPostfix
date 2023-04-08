@@ -4,6 +4,7 @@
 
 #include <cstring>
 
+
 int main(){
     printf("check\n");
     char infix[]="(300+333+23)/(84+7)";

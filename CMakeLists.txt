@@ -10,4 +10,4 @@ add_executable(myproject
         infix_to_postfix.cpp
         main.cpp
         stack.cpp
-        postfix_calc.cpp)
+        postfix_calc.cpp stackInt.cpp)

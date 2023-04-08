@@ -20,12 +20,25 @@ void print_stack(stack s);
 //infix_to_postfix.cpp
 bool is_operator(char c);
 int precedence(char c);
-float calc(int op1,int op2,int c);
-
 char * infix_to_postfix(char exp[],int length);
 
 //posfix_calc.cpp
 
 char ** splitString(char* str, char delim);
+float calc(int op1,int op2,int c);
+
+// stckInt.c
+
+typedef struct {
+
+}stackINT;
+stackINT * initializeINT(int size);
+bool is_emptyINT(stackINT s);
+bool is_fullINT(stackINT s, int size);
+int peekINT(stackINT s);
+void pushINT(stackINT* s, int value, int size);
+int popINT(stackINT* s);
+void printINT(stackINT s);
+
 
 #endif //INFIX2POSTFIX_PROJECT_HEADER_H
